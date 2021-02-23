@@ -5,7 +5,7 @@ Exercise 1:
 
 // Exercise 1 has been completed for you...
 
-const foods = [];
+let foods = [];
 
 console.log('Exercise 1 Result:\n', foods);
 
