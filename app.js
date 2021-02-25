@@ -33,6 +33,9 @@ Exercise 3:
 
 foods.unshift("taco");
 
+// or use splice...
+// foods.splice(0, 0, "taco")
+
 console.log("Exercise 3 Result:\n", foods);
 
 /*
@@ -165,18 +168,6 @@ nums.forEach(function (num) {
     fizzbuzz.push(num);
   }
 });
-
-let color = "yellow";
-
-if (color === "green") {
-  console.log("Go");
-} else if (color === "yellow") {
-  console.log("Slow");
-} else if (color === "red") {
-  console.log("Stop");
-} else {
-  console.log("Whatever");
-}
 
 // or slightly more concise...
 // nums.forEach(function(num) {
